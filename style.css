@@ -79,7 +79,9 @@ p {
     position: relative;
     text-align: center;
     vertical-align: middle;
+
 }
+
 .menu {
     z-index: 15;
     list-style: none;
@@ -87,6 +89,7 @@ p {
     top: 10px;
     right: 30px;
 }
+
 .type {
     float: left;
     font-family: 'Ma Shan Zheng', cursive;
@@ -97,8 +100,35 @@ p {
     cursor: pointer;
     color: aliceblue;
     font-size: 20px;
+    border-radius: 10px;
 }
+
+.type a:hover {
+
+    color: blanchedalmond !important;
+}
+
 .type:hover {
     background-color: darkcyan;
-    color: blanchedalmond;
+}
+
+.type a {
+    color: aliceblue;
+}
+
+#contact {
+    background: firebrick;
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+.contact_1 a {
+    color: fuchsia;
+    text-shadow: none;
 }
